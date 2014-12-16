@@ -13,7 +13,7 @@
     "request": "^2.50.0"
   },
   "bin": {
-    "gitsearch": "./bin/webstruct.js"
+    "webstruct": "./bin/webstruct.js"
   },
   "scripts": {
     "test": "jasmine-node --color spec"
