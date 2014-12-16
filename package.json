@@ -1,0 +1,25 @@
+{
+  "name": "webstruct",
+  "version": "0.0.1",
+  "description": "A command-line tool for building web application structures",
+  "author": "Michael Watts",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.5.0",
+    "mkdirp": "^0.5.0",
+    "request": "^2.50.0"
+  },
+  "bin": {
+    "gitsearch": "./bin/webstruct.js"
+  },
+  "scripts": {
+    "test": "jasmine-node --color spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altescape/node-webstruct.git"
+  }
+}
